@@ -1,0 +1,29 @@
+{
+  "name": "n17-wait",
+  "version": "1.0.0",
+  "description": "Angular Directive to display a wait/loading graphic",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "gulp-clean": "^0.3.1",
+    "gulp-stylus": "^2.0.1",
+    "gulp-uglify": "^1.2.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:n17-solutions/components.git"
+  },
+  "keywords": [
+    "n17",
+    "wait",
+    "angular",
+    "n17solutions"
+  ],
+  "author": "James Woodley",
+  "license": "ISC"
+}
