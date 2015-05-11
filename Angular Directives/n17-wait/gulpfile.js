@@ -7,17 +7,17 @@ var gulp 		= require('gulp'),
 	concat		= require('gulp-concat'),
 	browserify	= require('browserify'),
 	source 		= require('vinyl-source-stream'),
-	clean		= require('gulp-clean'),
+	del			= require('del'),
 	runSequence = require('run-sequence');
 
 gulp.task('clean', ['cleanOutput'], function() {
-	return gulp.src(['./dist', './templates/*.js'], { read: false })
-		.pipe(clean());
+	return del([
+		'./dist',
+		'./templates/*.js']);
 });
 
 gulp.task('cleanOutput', function() {
-	return gulp.src(['./output'], { read: false })
-		.pipe(clean());
+	return del(['./output']);
 });
 
 gulp.task('stylus', function() {

@@ -22,7 +22,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "js",
+    "stylus",
+    "templates"
   ],
   "dependencies": {
     "angular": "^1.2.14"
