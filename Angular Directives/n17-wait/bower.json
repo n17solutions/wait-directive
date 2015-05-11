@@ -1,0 +1,33 @@
+{
+  "name": "n17-wait",
+  "version": "0.0.1",
+  "authors": [
+    "James Woodley <info@n17solutions.com>"
+  ],
+  "description": "Show an animated spinner to show a procedure is processing however the user needs to wait",
+  "main": "./dist/n17-wait.min.js",
+  "keywords": [
+    "n17",
+    "solutions",
+    "wait",
+    "angularjs",
+    "spinner",
+    "directive",
+    "processing"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.n17solutions.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "js",
+    "stylus",
+    "templates"
+  ],
+  "dependencies": {
+    "angular": "^1.2.14"
+  }
+}

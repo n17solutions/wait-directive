@@ -7,8 +7,8 @@ var gulp 		= require('gulp'),
 	concat		= require('gulp-concat'),
 	browserify	= require('browserify'),
 	source 		= require('vinyl-source-stream'),
-	del		= require('del'),
-	runSequence 	= require('run-sequence');
+	del			= require('del'),
+	runSequence = require('run-sequence');
 
 gulp.task('clean', ['cleanOutput'], function() {
 	return del([
