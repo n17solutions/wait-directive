@@ -1,11 +1,12 @@
 {
   "name": "n17-wait",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "homepage": "https://github.com/n17solutions/wait-directive",
   "authors": [
     "James Woodley <info@n17solutions.com>"
   ],
   "description": "Show an animated spinner to show a procedure is processing however the user needs to wait",
-  "main": "./dist/n17-wait.min.js",
+  "main": "./dist/no-frameworks/n17-wait.min.js",
   "keywords": [
     "n17",
     "solutions",
@@ -16,16 +17,15 @@
     "processing"
   ],
   "license": "MIT",
-  "homepage": "http://www.n17solutions.com",
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
     "test",
-    "tests",
-    "js",
-    "stylus",
-    "templates"
+    "src",
+    "gulpfile.js",
+    "package.json",
+    "webpack.*"
   ],
   "dependencies": {
     "angular": "^1.2.14"

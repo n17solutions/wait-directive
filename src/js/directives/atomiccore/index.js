@@ -1,5 +1,7 @@
 'use strict';
 
+require('templates');
+
 module.exports = function() {
 	return {
 		restrict: 'E',
